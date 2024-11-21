@@ -27,6 +27,20 @@
                 Chức năng chính:
             </div>
 
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fas fa-calendar-day"></i>
+                    <span>Thương hiệu</span>
+                </a>
+                <div id="collapseOne" class="collapse" aria-labelledby="collapseOne" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Các chức năng:</h6>
+                        <a class="collapse-item" href="./listbrands.php">Liệt kê</a>
+                        <a class="collapse-item" href="cards.html">Thêm mới</a>
+                    </div>
+                </div>
+            </li>
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
@@ -37,7 +51,7 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Các chức năng:</h6>
-                        <a class="collapse-item" href="buttons.html">Liệt kê</a>
+                        <a class="collapse-item" href="./listcats.php">Liệt kê</a>
                         <a class="collapse-item" href="cards.html">Thêm mới</a>
                     </div>
                 </div>
