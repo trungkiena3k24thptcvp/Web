@@ -31,7 +31,7 @@ require('includes/header.php');
                                     <tbody>
                                     <?php 
     require('../db/conn.php');
-    $sql_str = "select * from categories order by name";
+    $sql_str = "select * from categories order by id";
     $result = mysqli_query($conn, $sql_str);
     while ($row = mysqli_fetch_assoc($result)) {
         ?>
@@ -40,7 +40,11 @@ require('includes/header.php');
                                             <td><?=$row['name']?></td>
                                             <td><?=$row['slug']?></td>
                                             <td><?=$row['status']?></td>
-                                            <td>Delete | Edit </td>
+                                            <td>
+                                            <a class="btn btn-warning" href="editcategory.php?id=<?=$row['id']?>">Edit</a> 
+                                            <a class="btn btn-danger" href="deletecategory.php?id=<?=$row['id']?>"
+                                            onclick="return confirm('Bạn có chắc chắn xoá mục này?');">Delete</a>
+                                        </td>
                                         </tr>
                                         <?php 
     }

@@ -37,7 +37,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Các chức năng:</h6>
                         <a class="collapse-item" href="./listbrands.php">Liệt kê</a>
-                        <a class="collapse-item" href="cards.html">Thêm mới</a>
+                        <a class="collapse-item" href="./themthuonghieu.php">Thêm mới</a>
                     </div>
                 </div>
             </li>
@@ -52,7 +52,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Các chức năng:</h6>
                         <a class="collapse-item" href="./listcats.php">Liệt kê</a>
-                        <a class="collapse-item" href="cards.html">Thêm mới</a>
+                        <a class="collapse-item" href="./themdanhmuc.php">Thêm mới</a>
                     </div>
                 </div>
             </li>
