@@ -39,6 +39,7 @@ function anhdaidien($arrstr, $height) {
                                     <?php 
     require('../db/conn.php');
     $sql_str = "select 
+    products.id as pid,
     products.name as pname, 
     images,
     categories.name as cname,
@@ -56,7 +57,11 @@ function anhdaidien($arrstr, $height) {
                                             <td><?=$row['cname']?></td>
                                             <td><?=$row['bname']?></td>
                                             <td><?=$row['pstatus']?></td>
-                                            <td>Delete | Edit </td>
+                                            <td>
+                                            <a class="btn btn-warning" href="editproduct.php?id=<?=$row['pid']?>">Edit</a> 
+                                            <a class="btn btn-danger" href="deleteproduct.php?id=<?=$row['pid']?>"
+                                            onclick="return confirm('Bạn có chắc chắn xoá sản phẩm này?');">Delete</a>
+                                        </td>
                                         </tr>
                                         <?php 
     }
