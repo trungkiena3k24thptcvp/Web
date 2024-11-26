@@ -35,5 +35,5 @@
      `images`, `category_id`, `brand_id`, `status`, `created_at`, `updated_at`) VALUES (NULL, '$name',
     '$slug', '$description', '$sumary', $stock, $giagoc, $giaban, '$imgs', $danhmuc, $thuonghieu, 'Active', NULL, NULL);";
     mysqli_query($conn, $sql_str);
-    header("location: index.php");
+    header("location: ./listsanpham.php");
 ?>
