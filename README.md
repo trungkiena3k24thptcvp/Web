@@ -49,7 +49,6 @@ Website hỗ trợ bán hàng và quản lý bán hàng.
 ## 5. Một số tính năng chưa phát triển của trang web
 - Tính năng tìm sản phẩm trong website bán hàng.
 - Quản lý doanh thu của shop.
-Cảm ơn các bạn đã xem project website của mình. Nếu có thắc mắc hãy liên hệ SĐT: 0846010805 hoặc gmail: 23021589@vnu.edu.vn
 
 
 
