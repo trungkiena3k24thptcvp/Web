@@ -111,25 +111,10 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Các chức năng:</h6>
                         <a class="collapse-item" href="listorders.php">Liệt kê</a>
-                        <a class="collapse-item" href="cards.html">Thêm mới</a>
                     </div>
                 </div>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFive"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-users"></i>
-                    <span>Người dùng</span>
-                </a>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Các chức năng:</h6>
-                        <a class="collapse-item" href="buttons.html">Liệt kê</a>
-                        <a class="collapse-item" href="cards.html">Thêm mới</a>
-                    </div>
-                </div>
-            </li>
 
 
             <!-- Divider -->
