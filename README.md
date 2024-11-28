@@ -25,7 +25,47 @@ Website hỗ trợ bán hàng và quản lý bán hàng.
 ![image](https://github.com/user-attachments/assets/d2a79884-40c8-4137-b49e-acd82a05cab7)
   + Trong trang chủ web người mua hàng có thể nhìn thấy các thông tin như các sản phẩm hot của shop, và các tin tức mới nhất của shop như là chương trình giảm giá hay những mẫu đồ công nghệ mới nhất cập bến shop hoặc danh mục sản phẩm. 
   + Khi muốn mua hàng khác sẽ bấm vào chữ shop ở góc trên cùng của màn hình. Sau đó lựa chọn sản phẩm như hình: 
+![image](https://github.com/user-attachments/assets/4f1f3180-4a56-4a8c-9aa0-4b9109bf2ede)
   + Bạn sẽ nhấn vào sản phẩm bạn muốn mua (Nhấn vào tên sản phẩm không nhấn vào ảnh) sau đó sẽ hiện ra như hình (VD với sản phẩm Macbook pro m1) 
+![image](https://github.com/user-attachments/assets/4ebb8599-006a-4b63-bfbc-03268aaaecbe)
+  + Bạn nhấn vào thêm vào giỏ hàng. Khi muốn thanh toán bạn hãy nhấn vào biểu tượng giỏ hàng ở góc phải màn hình và làm theo hướng dẫn để thanh toán.
+## 3. Các bảng database
+- Gồm 8 bảng database:
+  + admins: Dùng để lưu trữ thông tin tài khoản đăng nhập để quản lý website bán hàng và các thông tin cơ bản về admin.
+  + brands: Dùng để quản lý thông tin về các thương hiệu của shop.
+  + categories: Dùng để quản lý các danh mục sản phẩm có sẵn của shop như máy tính, điện thoại, tv, máy tính bảng, các mặt hàng đồ công nghệ, ...
+  + news: Dùng để quản lý các tin tức về shop như chương trình giảm giá hay sản phẩm mới.
+  + newcategories: Dùng để quản lý các danh mục tin tức để dễ dàng phân loại tin tức như tin tức về sản phẩm hay tin tức về chương trình ưu đãi.
+  + orders: Dùng để lưu trữ thông tin của các khách hàng orders.
+  + order_details: Dùng để quản lý các sản phẩm có trong các đơn đặt hàng
+  + products: Dùng để quản lý các sản phẩm có trong shop.
+- Dưới đây là hình ảnh quan hệ giữa các bảng với nhau: 
+![image](https://github.com/user-attachments/assets/d34ab59f-c1c5-46c8-abea-5b1cab4c38b6)
+## 4. Các tài liệu tham khảo: 
+- Chatgpt.
+- Start Bootstrap.
+- Theme wagon.
+- Youtube.
+## 5. Một số tính năng chưa phát triển của trang web
+- Tính năng tìm sản phẩm trong website bán hàng.
+- Quản lý doanh thu của shop.
+Cảm ơn các bạn đã xem project website của mình. Nếu có thắc mắc hãy liên hệ SĐT: 0846010805 hoặc gmail: 23021589@vnu.edu.vn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
