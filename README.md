@@ -3,7 +3,7 @@
 Website hỗ trợ bán hàng và quản lý bán hàng.
  - [1. Hướng dẫn sử dụng](#1-hướng-dẫn-sử-dụng)
  - [2. Các trang Web](#2-các-trang-web)
- - [3. Các bảng database và chức năng](#3-các-thành-phần)
+ - [3. Các bảng database và chức năng](#3-các-bảng-database-và-chức-năng)
  - [4. Các tài liệu tham khảo](#4-các-tài-liệu-tham-khảo)
  - [5. Một số tính năng chưa phát triển của trang web](#5-một-số-tính-năng-chưa-phát-triển-của-trang-web)
 ## 1. Hướng dẫn sử dụng
@@ -22,7 +22,8 @@ Website hỗ trợ bán hàng và quản lý bán hàng.
 - Có 2 trang web sau:
   + Thứ nhất là trang web quản lý bán hàng như trên. Trong trang web có các tính năng như là quản lý các thương hiệu, danh mục sản phẩm, sản phẩm, danh mục tin tức, tin tức, đơn hàng với các thao tác như Liệt kê và thêm mới (Chi tiết bạn hãy thử trên website). Lưu ý với những phần thêm ảnh file ảnh của bạn không nên chứa dấu space vì khi chứa space rất có thể khi đọc file ảnh có thể bị lỗi dẫn đến không thể load file lên trang web.
   + Thứ hai là trang web dành cho người mua hàng (trang web bán hàng). Bạn nhập lên thanh tìm kiếm của trình duyệt là localhost:8000/index.php. Sau đó sẽ ra trang web như hình: 
-![image](https://github.com/user-attachments/assets/d2a79884-40c8-4137-b49e-acd82a05cab7)
+![image](https://github.com/user-attachments/assets/44dd2b23-727c-43f8-93a0-15c960557a4d)
+
   + Trong trang chủ web người mua hàng có thể nhìn thấy các thông tin như các sản phẩm hot của shop, và các tin tức mới nhất của shop như là chương trình giảm giá hay những mẫu đồ công nghệ mới nhất cập bến shop hoặc danh mục sản phẩm. 
   + Khi muốn mua hàng khác sẽ bấm vào chữ shop ở góc trên cùng của màn hình. Sau đó lựa chọn sản phẩm như hình: 
 ![image](https://github.com/user-attachments/assets/4f1f3180-4a56-4a8c-9aa0-4b9109bf2ede)
