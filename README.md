@@ -30,7 +30,7 @@ Website hỗ trợ bán hàng và quản lý bán hàng.
   + Bạn sẽ nhấn vào sản phẩm bạn muốn mua (Nhấn vào tên sản phẩm không nhấn vào ảnh) sau đó sẽ hiện ra như hình (VD với sản phẩm Macbook pro m1) 
 ![image](https://github.com/user-attachments/assets/4ebb8599-006a-4b63-bfbc-03268aaaecbe)
   + Bạn nhấn vào thêm vào giỏ hàng. Khi muốn thanh toán bạn hãy nhấn vào biểu tượng giỏ hàng ở góc phải màn hình và làm theo hướng dẫn để thanh toán.
-## 3. Các bảng database
+## 3. Các bảng database và chức năng
 - Gồm 8 bảng database:
   + admins: Dùng để lưu trữ thông tin tài khoản đăng nhập để quản lý website bán hàng và các thông tin cơ bản về admin.
   + brands: Dùng để quản lý thông tin về các thương hiệu của shop.
