@@ -18,6 +18,7 @@ Website hỗ trợ bán hàng và quản lý bán hàng.
 - Sau đó truy cập localhost:8000/quantri/login.php để đăng nhập (Thay đổi cổng 8000 thành cổng mà bạn chạy trang web). Nhập email và mật khẩu theo thông tin ở trên CSDL mà bạn vừa tạo.
 - Sau khi đăng nhập bạn sẽ được chuyển đến trang chủ của Web quản lý như hình: 
 ![image](https://github.com/user-attachments/assets/9def6f63-e72e-43a7-9ecd-ff63adcc0cc4)
+Hoặc bạn có thể dùng extension Live php server trong visual code studio. Sau đó serve project index.php và quantri/index.php và sử dụng
 ## 2. Các trang web 
 - Có 2 trang web sau:
   + Thứ nhất là trang web quản lý bán hàng như trên. Trong trang web có các tính năng như là quản lý các thương hiệu, danh mục sản phẩm, sản phẩm, danh mục tin tức, tin tức, đơn hàng với các thao tác như Liệt kê và thêm mới (Chi tiết bạn hãy thử trên website). Lưu ý với những phần thêm ảnh file ảnh của bạn không nên chứa dấu space vì khi chứa space rất có thể khi đọc file ảnh có thể bị lỗi dẫn đến không thể load file lên trang web.
